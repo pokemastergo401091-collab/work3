@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗНУ - Контакти</title>
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="wrapper_logo">
+                    <a href="./index.html" class="wrapper_logo-link">
+                        <img src="./image/logo.png" alt="logo" class="wrapper_logo-pic" width="64" height="64">
+                    </a>
+                </div>
+                <nav class="header_nav">
+                    <ul class="header_list-menu">
+                        <li class="header_item"><a href="./index.html" class="header_link">Головна</a></li>
+                        <li class="header_item"><a href="./news.html" class="header_link">Новини</a></li>
+                        <li class="header_item"><a href="./education.html" class="header_link">Навчання</a></li>
+                        <li class="header_item"><a href="./contacts.html" class="header_link">Контакти</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Контакти та зворотний зв'язок</h1>
+        <p>Маєте запитання? Заповніть форму нижче, і ми зв'яжемося з вами.</p>
+        
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Ім'я</label>
+                <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ваш email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Повідомлення</label>
+                <textarea id="message" name="message" rows="5" placeholder="Ваше повідомлення" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Надіслати</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 Університет. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
